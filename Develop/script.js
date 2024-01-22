@@ -52,10 +52,6 @@ function generatePassword() {
 
   return password;
 
-
-
-
-
 }
 
 
