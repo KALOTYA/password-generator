@@ -2,6 +2,19 @@
 
 function generatePassword() {}
 
+var incLowercase = 
+var incUppercase = 
+var incNumbers = 
+var incSpecial = 
+
+if ()
+
+var lowercaseChars = 
+var lowercaseChars =
+var lowercaseChars =
+var lowercaseChars =
+
+
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 
