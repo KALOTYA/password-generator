@@ -1,18 +1,35 @@
 // Assignment code here
 
-function generatePassword() {}
+function generatePassword() {
+  var incLowercase = 
+  var incUppercase = 
+  var incNumbers = 
+  var incSpecial = 
 
-var incLowercase = 
-var incUppercase = 
-var incNumbers = 
-var incSpecial = 
+  if ()
 
-if ()
+  var lowercaseChars = "abcdefghijklmnopqrstuvwxyz";
+  var uppercaseChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  var numbersChars = "0123456789";
+  var specialChars = "!@#$%^&*()_+{}[]|;:,.<>?";
 
-var lowercaseChars = 
-var lowercaseChars =
-var lowercaseChars =
-var lowercaseChars =
+  var allChars = "";
+  if ()
+  if ()
+  if ()
+  if ()
+
+
+  //Generating the password
+  var password = 
+  for (var i = 0;i < length; i++) {}
+
+
+
+
+
+
+}
 
 
 // Get references to the #generate element
