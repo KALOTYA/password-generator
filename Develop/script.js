@@ -1,10 +1,15 @@
 // Assignment code here
 
 function generatePassword() {
-  var incLowercase = 
-  var incUppercase = 
-  var incNumbers = 
-  var incSpecial = 
+  
+  var length = parceInt(prompt("how long would you like your password? (MUST CONTAIN BETWEEN 8 - 128 CHARECTERS:"));
+  
+  
+  
+  var incLowercase = confirm();
+  var incUppercase = confirm();
+  var incNumbers = confirm();
+  var incSpecial = confirm();
 
   if ()
 
