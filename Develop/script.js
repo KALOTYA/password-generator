@@ -4,7 +4,7 @@ function generatePassword() {
   
   //prompting User for password length
   var length = parceInt(prompt("how long would you like your password? (MUST CONTAIN BETWEEN 8 - 128 CHARECTERS:"));
-  
+  console.log("password length:" + length);
   
   //prompting user for password criteria
   var incLowercase = confirm("Do you want to include Lowercase?");
@@ -12,8 +12,25 @@ function generatePassword() {
   var incNumbers = confirm("Do you want to include Numbers?");
   var incSpecial = confirm("Do you want to include Special Charecters?");
 
-  if (!incLowercase && !incUppercase && !incNumbers && !incSpecial) {}
+  console.log("Do they want Lowercase?:" + incLowercase);
+  console.log("Do they want Uppercase?:" + incUppercase);
+  console.log("Do they want Numbers?:" + incNumbers);
+  console.log("Do they want Special charecters?:" + incSpecial);
 
+
+
+  //Validating to make sure the User selects at least one of the criteria
+  if (!incLowercase && !incUppercase && !incNumbers && !incSpecial) {
+    
+    //Alerting User that they must pick one in order to generate password
+    alert("You cant do that! You must select at least one! Hurry! >:(");
+    
+    //returning empty string
+    return "";
+  }
+
+
+  //Assigning variables for all possible charecters
   var lowercaseChars = "abcdefghijklmnopqrstuvwxyz";
   var uppercaseChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   var numbersChars = "0123456789";
