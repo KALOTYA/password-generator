@@ -3,7 +3,7 @@
 function generatePassword() {
   
   //prompting User for password length
-  var length = parceInt(prompt("how long would you like your password? (MUST CONTAIN BETWEEN 8 - 128 CHARECTERS:"));
+  var length = parseInt(prompt("how long would you like your password? (MUST CONTAIN BETWEEN 8 - 128 CHARECTERS:"));
   console.log("password length:" + length);
   
   //prompting user for password criteria
@@ -44,9 +44,13 @@ function generatePassword() {
 
 
   //Generating the password
-  var password = 
-  for (var i = 0;i < length; i++) {}
+  var password = "";
+  for (var i = 0;i < length; i++) {
+    var randomIndex = Math.floor(Math.random() * allChars.length);
+    password += allChars.charAt(randomIndex);
+  }
 
+  return password;
 
 
 
