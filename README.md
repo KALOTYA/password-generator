@@ -17,4 +17,4 @@ This Password Generator is a simple JavaScript application that prompts the user
 3. View the generated password in the designated textarea.
 
 ## Display:
-![Alt text](<./assets/Web capture_21-1-2024_213835_localhost.jpeg>)
+![Alt text](<./assets/images/Web capture_21-1-2024_213835_localhost.jpeg>)
